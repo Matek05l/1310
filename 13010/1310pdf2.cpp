@@ -329,3 +329,49 @@
 
 //    return 0;
 //}
+
+// Zadanie 15
+
+//#include <iostream>
+//#include <cstdlib> 
+//using namespace std;
+//int main() {
+//    int n, m;
+//    cout << "Podaj m: ";
+//    cin >> m;
+//    cout << "Podajn: ";
+//    cin >> n;
+
+//    for (int i = 0; i < n; i++) {
+//        int losowa = rand() % (m + 1); // losuje liczbe z zakresu [0, m]
+//        cout << losowa << "\n ";
+//    }
+
+//    return 0;
+//}
+
+// Zadanie 16
+
+#include <iostream>
+#include <cstdlib> 
+
+using namespace std;
+int main() {
+    int n, l = 0;
+
+    cout << "Podaj numer [1,10]: ";
+    cin >> n;
+    cout << "Losowanie" << "\n";
+
+    for (int i = 0; i < 10; i++) {
+        int losowa = rand() % 10 + 1; 
+        cout << losowa << " ";
+        if (losowa == n) {
+            l++;
+        }
+    }
+    cout << "\n numerek pojawil sie " << l << " razy." << endl;
+    return 0;
+}
+
+
