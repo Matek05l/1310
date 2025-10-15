@@ -226,23 +226,106 @@
 
 // Zadanie 10
 
-#include <iostream>
-using namespace std;
-int main() {
-	int n;
-	int hn = -1;
-	cout << "podaj liczbe";
-	cin >> n;
-	cout << "tyle liczb jest podzielnych \n";
-	for (int i = 0; i <= 100; i++) {
-		if (i % n == 0) {
-			hn++;
-			if (i == 100) {
-				cout << hn;
-			}
+//#include <iostream>
+//using namespace std;
+//int main() {
+//	int n;
+//	int hn = -1;
+//	cout << "podaj liczbe";
+//	cin >> n;
+//	cout << "tyle liczb jest podzielnych \n";
+//	for (int i = 0; i <= 100; i++) {
+//		if (i % n == 0) {
+//			hn++;
+//			if (i == 100) {
+//				cout << hn;
+//			}
 
-		}
-	}
+//		}
+//	}
 
-	return 0;
-}
+//	return 0;
+//}
+
+// Zadanie 11
+
+//#include <iostream>
+//using namespace std;
+//int main() {
+//    int a, b;
+//    cout << "Podaj dwie liczby calkowite (a i b): ";
+//    cin >> a >> b;
+//    int min = (a < b) ? a : b;
+//    int max = (a > b) ? a : b;
+
+//    cout << "Liczby z przedzialu [" << min << ", " << max << "] podzielne przez 3:" << endl;
+
+ //   for (int i = min; i <= max; i++) {
+ //      if (i % 3 == 0) {
+ //           cout << i << " ";
+ //       }
+ //   }
+
+//    cout << endl;
+//    return 0;
+//}
+
+//  Zadanie 12
+
+//#include <iostream>
+//using namespace std;
+//int main()
+//{
+//	int n;
+//	float s = 0;
+//	float l, sk;
+//	cout << "Podaj ilosc \n";
+//	cin >> n;
+//	for (int i = 1; i <= n; i++) {
+//		cout << "podaj liczbe" << i << "\n";
+//		cin >> l;
+//		cout << "\n";
+//		s += l;
+//		if (i == n) {
+//			sk = s / n;
+//			cout << sk;
+//		}
+
+//	}
+//	return 0;
+//}
+
+// Zadanie 13
+
+//#include <iostream>
+//using namespace std;
+//int main() {
+//	for (int i = 100; i >= 0; i--) {
+//		cout << i << "\n";
+//	}
+//	return 0;
+//}
+
+// Zadanie 14
+
+//#include <iostream>
+//using namespace std;
+//int main() {
+//    int a, b, c;
+//    cout << "Podaj liczby" << "\n";
+//    cin >> a >> b >> c;
+
+//    int najmniejsza = a;
+
+//    if (b < najmniejsza) {
+//        najmniejsza = b;
+//    }
+
+//    if (c < najmniejsza) {
+//        najmniejsza = c;
+//    }
+
+//    cout << "Najmniejsza " << najmniejsza << "\n";
+
+//    return 0;
+//}
