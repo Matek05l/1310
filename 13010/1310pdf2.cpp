@@ -36,3 +36,103 @@
 //}
 
 // instrukcje warunkowe 
+
+//#include <iostream>
+//using namespace std;
+
+//int main() { 
+//    int liczba;
+//    cout << "podaj liczbe: \n";
+//    cin >> liczba;
+//    if (liczba % 2 == 0) {
+//        cout << "liczba " << liczba << " jest parzysta!" << endl;
+//    }
+//    else {
+//        cout << "liczba " << liczba << " jest nieparzysta!" << endl;
+//    }
+// return 0
+//}
+
+
+// || - OR
+// && - and
+// != ró¿ne od 
+
+
+// Zadanie 1
+
+// z1
+
+//#include <iostream>
+//using namespace std;
+//int main() {
+//	int i ;
+//	for (i = 0; i <= 10; i++) {
+//		cout << i << "\n";
+//		}
+//	return 0;
+//}
+
+//z2
+// 
+//#include <iostream>
+//using namespace std;
+//int main() {
+//	for (int i = 5; i >= 5 && i <= 7; i++) {
+//		cout << i << "\n";
+//	}
+//	return 0;
+//}
+ 
+//z3
+
+//#include <iostream>
+//using namespace std;
+//int main() {
+//	for (int i = 5; i >= 5 && i < 7; i++) {
+//		cout << i << "\n";
+//	}
+//	return 0;
+//}
+
+//z4
+
+//#include <iostream>
+//using namespace std;
+//int main() {
+//	for (int i = 0; i <= 10; i+=2) {
+//		cout << i << "\n";
+//	}
+//	return 0;
+//}
+
+//z5
+
+//#include <iostream>
+//using namespace std;
+//int main() {
+//	for (int i = 10; i >= 0; i--) {
+//		cout << i << "\n";
+//	}
+//	return 0;
+//}
+
+// Zadanie 2 (Analiza kodu)
+
+//#include <iostream>
+//using namespace std;
+//int main() {
+ //   int fahr, celsius; //zmienne typu int 
+//   int start, limit, krok; //zmienne typu int 
+
+//    start = 0; //przypisz 0 do start 
+//    limit = 200; //przypisz 200 do limit 
+//    krok = 20; //przypisz 20 do krok 
+
+//    fahr = start; //przypisz wartosc start do zmiennej fahr, czyli fahr = 0 
+//    while (fahr <= limit) { //wykonuj petle dopoki wartosc fahr jest <= od zmiennej limit 
+//        celsius = 5 * (fahr - 32) / 9; //oblicz stopnie C i przypisz wynik do celsius 
+//        cout << fahr << "\t" << celsius << endl; //wypisz zmienne na ekran
+//        fahr = fahr + krok; //zwieksz wartosc zmiennej fahr o wartosc zmiennej krok
+//    }
+//}
