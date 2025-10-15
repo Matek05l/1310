@@ -51,6 +51,7 @@
 //    cout << "1.          Mateusz        Ligocki \n";
 //    cout << "2.          Adam           Majda \n";
 //   cout << "3.           Dorian         Sztamblewski";
+// // return 0;
 //}
 
 // ZADANIE 4
@@ -66,6 +67,7 @@
 //    cin >> b;
 //    c = a * b;
 //    cout << c;
+// return 0;
 //}
 
 //#include <iostream>
@@ -80,4 +82,19 @@
 //    cin >> b;
 //    c = a * b;
 //    cout << c;
+// return 0;
 //}
+
+// ZADANIE  5
+
+//#include <iostream>;
+//using namespace std;
+//int main() {
+//    int f;  int c;
+//    cout << "podaj temp w Fahr";
+//    cin >> f;
+//    c = 5*(f - 32) / 9;
+//    cout << c;
+//    return 0;
+
+ //}
